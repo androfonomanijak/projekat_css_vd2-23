@@ -1,0 +1,112 @@
+@font-face {
+    font-family: boldfont1;
+    src: url(Raleway-Bold.ttf);
+}
+@font-face {
+    font-family: regularfont1;
+    src: url(Raleway-Regular.ttf);
+}
+.navbar ul{
+    list-style-type: none;
+    background-color: #ab3513;
+    text-align: center;
+    border: 2px solid black;
+}
+.navbar li{
+    display: inline-block;
+}
+.navbar a{
+    text-decoration: none;
+    color: black;
+    display: block;
+    padding: 25px 70px;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    font-family: boldfont1;
+}
+a:hover{
+    color: white;
+    border-bottom: 5px solid black;
+    font-size: 27px;
+}
+a:active{
+    border-bottom: 5px solid black;
+    color: #ec8c25;
+}
+h1{
+    font-family: boldfont1;
+    margin-top: 5%;
+    width: 380px;
+    height: 53px;
+    border-radius: 14px;
+    color: rgb(255, 255, 255);
+    background-color: #260f02;
+    border-bottom: 5px solid #6b2c07;
+    padding-top: 15px;
+    font-size: 35px;
+}
+h2{
+    font-family: regularfont1;
+}
+.upis input, select{
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    width: 20%;
+    font-family: regularfont1;
+    color: #000000;
+    font-size: 20px;
+    display: block;
+}
+p{
+    font-family: regularfont1;
+}
+.radiodugmad{
+    display: flex;
+}
+
+.radiodugmad label{
+    min-width: 150px;
+    min-height: 70px;
+    display: flex;
+    align-items: center;
+    padding-left: 5px;
+    font-family: regularfont1;
+    font-size: 25px;
+}
+button{
+    border-radius: 20px;
+    height: 60px;
+    width: 170px;
+    font-family: boldfont1;
+    font-size: 25px;
+    background-color: black;
+    border-bottom: 5px solid #6b2c07;
+    color: #e63d09;
+    margin: 20px;
+}
+.regist:hover{
+    border-radius: 20px;
+    height: 60px;
+    width: 170px;
+    font-family: boldfont1;
+    font-size: 25px;
+    background-color: rgb(255, 255, 255);
+    border-bottom: 5px solid #000000;
+    color: #07951c;
+    margin: 20px;
+}
+.cancel:hover{
+    border-radius: 20px;
+    height: 60px;
+    width: 170px;
+    font-family: boldfont1;
+    font-size: 25px;
+    background-color: rgb(255, 255, 255);
+    border-bottom: 5px solid #000000;
+    color: #950707;
+    margin: 20px;
+}

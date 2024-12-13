@@ -1,0 +1,59 @@
+@font-face {
+    font-family: boldfont1;
+    src: url(Raleway-Bold.ttf);
+}
+@font-face {
+    font-family: regularfont1;
+    src: url(Raleway-Regular.ttf);
+}
+.navbar ul{
+    list-style-type: none;
+    background-color: #ab3513;
+    text-align: center;
+    border: 2px solid black;
+}
+.navbar li{
+    display: inline-block;
+}
+.navbar a{
+    text-decoration: none;
+    color: black;
+    display: block;
+    padding: 25px 70px;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    font-family: boldfont1;
+}
+a:hover{
+    color: white;
+    border-bottom: 5px solid black;
+    font-size: 27px;
+}
+a:active{
+    border-bottom: 5px solid black;
+    color: #ec8c25;
+}   
+
+.jela{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    font-family: regularfont1;
+}
+.subhd{
+    font-weight: bold;
+    background-image: url(../htmlprojekat/meni/ponudaslika.jpeg);
+    padding: 25px;
+    font-size: 45px;
+    color: rgb(255, 255, 255);
+    font-family: boldfont1;
+    letter-spacing: 2px;
+    text-shadow: 3px 3px black;
+}
+.slika{
+    border-radius: 25px;
+    border: 2px black solid;
+}
+
